@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="menu/css/style.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="js/simple-dropdown-menu.js"></script>
+    <title>CONTROL Y SEGUIMIENTO DE PEDIDOS</title>
+</head>
+<body>	
+	<div id="menu">
+		<div id="menu_r">
+			<div id="menu_l">
+				<ul class="main">	
+					<li><a id="home" href="index.php">Inicio</a></li>
+					<li>
+						<a href="#">Registros</a>
+						<ul class="sub">
+							<li><a href="pedidos.php">Pedidos</a></li>
+							<li>
+								<a href="pedido_almacen.php">Autorizar Almacen</a>								
+							</li>
+                            <li>
+								<a href="existencia_almacen.php">Existencia Almacen</a>
+							</li>
+							<li>
+								<a href="orden_compra.php">Autorizar Orden de Compra</a>
+							</li>
+							<li><a>Compras</a>
+                                    <ul class="sub">
+									   <li><a href="cotejo_compra.php">Cotejo Compras</a></li>									
+                                       <li><a href="compras_autorizadas.php">Compras Autorizadas</a></li>
+                                       <li><a href="solicitud_dinero.php">Solicitud de Dinero</a></li>
+								    </ul>
+                            </li>
+                            <li>
+                                <a>Usuarios</a>
+                                    <ul class="sub">
+									   <li><a href="#">Crear Usuarios</a></li>									
+                                       <li><a href="cambio_contrasena.php">Cambiar Contraseña</a></li>
+								    </ul>
+                            </li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Reportes</a>
+						<ul class="sub">
+							<li><a href="lista_pedidos.php">Lista Pedidos</a></li>
+							<li><a href="#">Control Usuarios</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ayuda</a></li>
+					<li><a href="cerrarsesion.php">Salir</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

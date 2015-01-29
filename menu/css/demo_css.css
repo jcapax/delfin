@@ -1,0 +1,15 @@
+﻿body { 
+	background: #fff url(../img/header.gif) top center repeat-x;
+}
+
+a.logo {
+	background:url(../img/logo.gif) no-repeat scroll left top transparent;
+	color:#666666;
+	display:block;
+	width: 482px;
+	height:76px;
+	margin:0 auto;
+	height:76px;
+	text-indent:-9999px;
+	outline: none;
+}
